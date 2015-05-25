@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD2393C71B13DE2E00234EB4"
+               BuildableName = "ProjWeekTest WatchKit App.app"
+               BlueprintName = "ProjWeekTest WatchKit App"
+               ReferencedContainer = "container:ProjWeekTest.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "DD2393911B13DDB500234EB4"
                BuildableName = "ProjWeekTest.app"
                BlueprintName = "ProjWeekTest"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD2393A61B13DDB500234EB4"
-               BuildableName = "ProjWeekTestTests.xctest"
-               BlueprintName = "ProjWeekTestTests"
+               BlueprintIdentifier = "DD2393BA1B13DE2E00234EB4"
+               BuildableName = "ProjWeekTest WatchKit Extension.appex"
+               BlueprintName = "ProjWeekTest WatchKit Extension"
                ReferencedContainer = "container:ProjWeekTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DD2393A61B13DDB500234EB4"
-               BuildableName = "ProjWeekTestTests.xctest"
-               BlueprintName = "ProjWeekTestTests"
-               ReferencedContainer = "container:ProjWeekTest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2393911B13DDB500234EB4"
-            BuildableName = "ProjWeekTest.app"
-            BlueprintName = "ProjWeekTest"
+            BlueprintIdentifier = "DD2393C71B13DE2E00234EB4"
+            BuildableName = "ProjWeekTest WatchKit App.app"
+            BlueprintName = "ProjWeekTest WatchKit App"
             ReferencedContainer = "container:ProjWeekTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/ProjWeekTest">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2393911B13DDB500234EB4"
-            BuildableName = "ProjWeekTest.app"
-            BlueprintName = "ProjWeekTest"
+            BlueprintIdentifier = "DD2393C71B13DE2E00234EB4"
+            BuildableName = "ProjWeekTest WatchKit App.app"
+            BlueprintName = "ProjWeekTest WatchKit App"
             ReferencedContainer = "container:ProjWeekTest.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD2393C71B13DE2E00234EB4"
+            BuildableName = "ProjWeekTest WatchKit App.app"
+            BlueprintName = "ProjWeekTest WatchKit App"
+            ReferencedContainer = "container:ProjWeekTest.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/ProjWeekTest">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DD2393911B13DDB500234EB4"
-            BuildableName = "ProjWeekTest.app"
-            BlueprintName = "ProjWeekTest"
+            BlueprintIdentifier = "DD2393C71B13DE2E00234EB4"
+            BuildableName = "ProjWeekTest WatchKit App.app"
+            BlueprintName = "ProjWeekTest WatchKit App"
             ReferencedContainer = "container:ProjWeekTest.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD2393C71B13DE2E00234EB4"
+            BuildableName = "ProjWeekTest WatchKit App.app"
+            BlueprintName = "ProjWeekTest WatchKit App"
+            ReferencedContainer = "container:ProjWeekTest.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
